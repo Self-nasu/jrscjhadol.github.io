@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J.R Sharma College</title>
+    <title>J.R Sharma P.G College</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 
     <section> <!-- Bootstrap5 linking -->
@@ -17,16 +17,17 @@
     <section> <!-- My CSS files linking -->
         <link rel="stylesheet" href="css/uni.css">
         <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/landing.css">
     </section>
 </head>
 <body>
     
     <header class="header">
-        <div class="nav-holder bg-white">
-            <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="nav-holder bg-light">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <div id="logo">
-                        <a id="logo01" class="navbar-brand" href="index.html">JR SHARMA PG COLLEGE</a>
+                        <a id="logo01" class="navbar-brand" href="index.html">J.R. SHARMA P.G. COLLEGE</a>
                         <a id="logo02" class="navbar-brand" href="index.html">(Affiliated to Mohanlal Shukhadia University)</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -38,12 +39,12 @@
                       <li class="nav-item">
                         <a id="nav-home" class="nav-link active" href="index.html">Home</a>
                       </li>
-                      <li class="nav-item dropdown">
+                      <li class="nav-item dropdown bg-light">
                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                           aria-expanded="false">
                           About
                         </a>
-                        <ul id="dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul id="dropdown" class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#">Director Desk</a></li>
                           <li><a class="dropdown-item" href="#">Principal Desk</a></li>
                         </ul>
@@ -59,7 +60,7 @@
                           aria-expanded="false">
                           Student Corner
                         </a>
-                        <ul id="dropdown" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul id="dropdown" class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#">Downloads</a></li>
                           <li><a class="dropdown-item" href="https://www.mlsu.ac.in/Syllabus">Syllabus</a></li>
                           <li><a class="dropdown-item" href="https://examination.mlsuportal.in">Examination</a></li>
@@ -76,6 +77,43 @@
               </nav>
         </div>
     </header>
+
+    <section class="landing">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('gallery/slider/slide\ \(1\).jpg')">
+        </div>
+        <div class="carousel-item" style="background-image: url('gallery/slider/slide\ \(2\).jpg')">
+        </div>
+        <div class="carousel-item" style="background-image: url('gallery/slider/slide\ \(3\).jpg')">
+        </div>
+        <div class="carousel-item" style="background-image: url('gallery/slider/slide\ \(4\).jpg')">
+        </div>
+        <div class="carousel-item" style="background-image: url('gallery/slider/slide\ \(5\).jpg')">
+        </div>
+        <div class="carousel-item" style="background-image: url('gallery/slider/slide\ \(6\).jpg')">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span id="slide-btn" aria-hidden="true"><i class="bi bi-arrow-left-circle-fill"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span id="slide-btn" aria-hidden="true"><i class="bi bi-arrow-right-circle-fill"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+    
+
 
     <section> <!-- JavaScript linking -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,26 @@
+.carousel-item {
+    height: 70vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 10vh;
+    width: 100%;
+}
+
+#slide-btn {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.416);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.144);
+    height: 47px;
+    width: 47px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#slide-btn:hover {
+    color: rgb(255, 255, 255);
+}
