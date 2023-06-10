@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/notification.css">
         <link rel="stylesheet" href="css/intro.css">
         <link rel="stylesheet" href="css/visioner.css">
+        <link rel="stylesheet" href="css/reviews.css">
     </section>
 </head>
 <body>
@@ -121,11 +122,11 @@
       </div>
     </section>
     
-    <section id="intro" class="container">
-      <div id="intro-head" class="container-fluid">
+    <section id="intro" class="container-fluid">
+      <div id="intro-head" class="container">
         <h2 class="h2">EXPERIENCE DREAM ACADEMIC JOURNEY WITH US</h2>
       </div>
-      <div id="intro-main" class="container-fluid">
+      <div id="intro-main" class="container">
         <div class="container-fluid bg-grey">
           <div class="row">
             <div id="mis-hold" class="col-sm-4">
@@ -141,7 +142,7 @@
     </section>
 
     <section id="visioner" class="container-fluid bg-primary">
-      <div class="container-fluid text-center bg-grey">
+      <div class="container text-center bg-grey">
         <h2 class="vis-head">OUR VISIONARIES</h2>
         <h4>Principal / Founder / Secretary</h4>
         <div class="row text-center">
@@ -171,9 +172,50 @@
       </div>
     </section>
 
-    
+    <section id="reviews" class="container-fluid">
+      <div id="rv-head" class="container">
+        <h2 class="h2">WHAT STUDENTS FELL HERE</h2>
+      </div>
+      <div id="testimonialCarousel" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption">
+              <h4>Paras Mehta</h4>
+              <p class="rv-star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></p>
+              <p>Good academic college initiated in remote tribal area of Jhadol.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <h4>Rajendra Vairagi</h4>
+              <p class="rv-star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></p>
+              <p>This is teacher training b. Ed. college.. , college campus is good.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <h4>Naman Jain</h4>
+              <p class="rv-star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></p>
+              <p>My 3 years BCA experience was to good and the teaching staff is so much supportive.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <i id="rv-btn" class="bi bi-arrow-left-circle text-primary"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <i id="rv-btn" class="bi bi-arrow-right-circle text-primary"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </section>
+
+
     <section> <!-- JavaScript linking -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="javascript/reviews.js"></script>
     </section>
 </body>
 </html>

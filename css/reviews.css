@@ -1,0 +1,50 @@
+#reviews {
+    margin-top: 5vh;
+}
+#rv-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+}
+#rv-head>h2 {
+    font-family: 'Inter';
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.121), 0px -5px 35px rgba(255,255,255,0.3);
+}
+#testimonialCarousel {
+    height: 30vh;
+}
+.carousel-caption {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel-caption>h4 {
+    font-family: 'Inter';
+    color: black;
+}
+.rv-star>i {
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    color: #007bff;
+}
+.carousel-caption>p {
+    color: gray;
+    font-family: 'Signika';
+}
+
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    height: 0px;
+    margin-top: 0px;
+}
+#rv-btn {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+}

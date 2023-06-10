@@ -1,12 +1,14 @@
+.landing {
+    margin-top: 11vh;
+}
 .carousel-item {
     height: 60vh;
-    min-height: 350px;
+    min-height: 60vh;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-top: 10vh;
     width: 100%;
 }
 
