@@ -1,0 +1,37 @@
+
+#intro {
+    margin-top: 5vh;
+}
+#intro-head {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+#intro-head>h2 {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    color: #007bff;
+    font-family: 'Inter';
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.121), 0px -5px 35px rgba(255,255,255,0.3);
+}
+#intro-main {
+    margin-top: 4vh;
+}
+#mis-hold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission {
+    height: 230px;
+    width: 300px;
+    zoom: 120%;
+}
+#mis-text>h2 {
+    font-family: 'Inter';
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.3rem;
+}

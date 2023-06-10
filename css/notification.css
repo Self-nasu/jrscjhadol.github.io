@@ -1,0 +1,27 @@
+.notification {
+    margin-top: 5vh;
+}
+.card-body>a {
+    margin-top: 0.6rem;
+    margin-right: 0.4rem;
+}
+#card {
+    border: 3px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px rgba(52, 52, 52, 0.151);
+}
+#card-header {
+    font-weight: bolder;
+    align-items: center;
+    display: flex;
+    background-color: #007bff;
+    color: white;
+}
+#btn-primary:hover {
+    background: #15cd15;
+    border: 1px solid #15cd15;
+}
+#btn-primary {
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0px 2px 4px 2px rgba(52, 52, 52, 0.233);
+}
