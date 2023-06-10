@@ -1,0 +1,38 @@
+#footer {
+    box-shadow: 0px -2px 4px 1px rgba(128, 128, 128, 0.169);
+    margin-top: 5vh;
+}
+.fot-link {
+    text-decoration: none;
+    transition: padding-left 0.3s ease-in-out;
+}
+.fot-link:hover {
+    color: #007bff !important;
+    padding-left: 20px;
+}
+.copyrights {
+    padding: 0px;
+    padding-top: 0.8rem;
+    background-color: #007bff;
+    box-shadow: 0px -1px 2px 1px rgba(128, 128, 128, 0.358);
+}
+#rights-in {
+    display: flex;
+    color: white;
+}
+#rights-p {
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+#rights-p>a {
+    color: white;
+}
+#rights-p1>a {
+    color: white;
+}
+#foot-icon {
+    margin-right: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}

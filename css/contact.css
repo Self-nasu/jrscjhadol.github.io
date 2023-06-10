@@ -1,0 +1,16 @@
+#contact-head {
+    margin-bottom: 5vh;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.121), 0px -5px 35px rgba(255,255,255,0.3);
+}
+.form-control {
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.105) !important;
+
+}
+
+.textarea {
+    margin-top: 1rem;
+}
+.sub-btn {
+    width: 100%;
+    margin-top: 1rem;
+}
