@@ -1,0 +1,32 @@
+#facilities {
+    margin-top: 13vh;
+}
+#col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.fc-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease;
+}
+.fc-link:hover {
+    color: #007bff;
+}
+.fc-img {
+    height: 33vh;
+    border-radius: 5%;
+}
+.sec {
+    margin-top: 5vh;
+}
+.fc-head {
+    margin-bottom: 2vh;
+    padding-bottom: 0.4rem;
+    border-bottom: 1.5px solid gray;
+    color: #007bff;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.121), 0px -5px 35px rgba(255,255,255,0.3);
+}
