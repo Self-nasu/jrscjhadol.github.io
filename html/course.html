@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Info</title>
+    <link rel="shortcut icon" href="/gallery/img/favicon.png" type="image/png">
+
+  <section>
+    <!-- Bootstrap5 linking -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  </section>
+
+  <section>
+    <!-- My CSS files linking -->
+    <link rel="stylesheet" href="/css/uni.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/course.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </section>
+
+  <section> <!-- preloader files linking -->
+    <link rel="stylesheet" href="/preload/preload.css">
+  </section>
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    
+    <header class="header">
+        <div class="nav-holder bg-light">
+          <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <div id="logo">
+                <a id="logo01" class="navbar-brand" href="/index.html">J.R. SHARMA P.G. COLLEGE</a>
+                <a id="logo02" class="navbar-brand" href="/index.html">(Affiliated to Mohanlal Shukhadia University)</a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="nav-right">
+                  <li class="nav-item">
+                    <a id="nav-home" class="nav-link" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown bg-light">
+                    <a class="nav-link " id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      About
+                    </a>
+                    <ul id="dropdown" class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/html/director.html"><i class="bi bi-arrow-right-short"></i>Founder Desk</a></li>
+                      <li><a class="dropdown-item" href="/html/principal.html"><i class="bi bi-arrow-right-short"></i>Principal Desk</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/html/facilities.html">Facilities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/html/gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Student Corner
+                    </a>
+                    <ul id="dropdown" class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/html/downloads.html"><i class="bi bi-arrow-right-short"></i>Downloads</a></li>
+                      <li><a class="dropdown-item" href="https://www.mlsu.ac.in/Syllabus"><i
+                            class="bi bi-arrow-right-short"></i>Syllabus</a></li>
+                      <li><a class="dropdown-item" href="https://examination.mlsuportal.in"><i
+                            class="bi bi-arrow-right-short"></i>Examination</a></li>
+                      <li><a class="dropdown-item" href="https://results.mlsuportal.in/"><i
+                            class="bi bi-arrow-right-short"></i>Results</a></li>
+                      <li><a class="dropdown-item" href="/html/course.html"><i class="bi bi-arrow-right-short"></i>Course Info</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/html/contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <section id="wide" class="container-fluid">
+        <a></a>
+    </section>
+
+    <div class="container heading">
+        <h2 class="h2 text-primary">COURSE WE PROVIDE</h2>
+     </div>
+
+    <section id="course" class="container-fluid">
+        <div id="course-1" class="container cou-sty">
+            <button onclick="toggleAnimation('drop')" class="btn btn-primary cou-len container">
+                <h4 class="h4">B.A (Bachelor of Arts)</h4>
+                <a class="sh-icon">+</a>
+            </button>
+            <div id="drop" class="cou-dropdown container">
+                <p class="pr-du"><strong>Program Duration :</strong> 3 Years</p>
+                <p class="pr-seats"><strong>Total Seats :</strong> 400</p>
+                <p class="pr-fees"><strong>Yearly Fees :</strong> 12000/year</p>
+                <p class="pr-totfee"><strong>Total Fees :</strong> Rs. 36000</p>
+            </div>
+        </div>
+        <div id="course-2" class="container cou-sty">
+            <button onclick="toggleAnimation('drop2')" class="btn btn-primary cou-len container">
+                <h4 class="h4">B.C.A (Bachelor of Computer Applications)</h4>
+                <a class="sh-icon">+</a>
+            </button>
+            <div id="drop2" class="cou-dropdown container">
+                <p class="pr-du"><strong>Program Duration :</strong> 3 Years</p>
+                <p class="pr-seats"><strong>Total Seats :</strong> 20</p>
+                <p class="pr-fees"><strong>Yearly Fees :</strong> 20000/year</p>
+                <p class="pr-totfee"><strong>Total Fees :</strong> Rs. 60000</p>
+            </div>
+        </div>
+        <div id="course-3" class="container cou-sty">
+            <button onclick="toggleAnimation('drop3')" class="btn btn-primary cou-len container">
+                <h4 class="h4">P.G.D.C.A (Deploma in Computer Applications)</h4>
+                <a class="sh-icon">+</a>
+            </button>
+            <div id="drop3" class="cou-dropdown container">
+                <p class="pr-du"><strong>Program Duration :</strong> 1 Years</p>
+                <p class="pr-seats"><strong>Total Seats :</strong> 30</p>
+                <p class="pr-fees"><strong>Yearly Fees :</strong> 20000/year</p>
+                <p class="pr-totfee"><strong>Total Fees :</strong> Rs. 20000</p>
+            </div>
+        </div>
+        <div id="course-4" class="container cou-sty">
+            <button onclick="toggleAnimation('drop4')" class="btn btn-primary cou-len container">
+                <h4 class="h4">M.A (Sociology)</h4>
+                <a class="sh-icon">+</a>
+            </button>
+            <div id="drop4" class="cou-dropdown container">
+                <p class="pr-du"><strong>Program Duration :</strong> 2 Years</p>
+                <p class="pr-seats"><strong>Total Seats :</strong> 20</p>
+                <p class="pr-fees"><strong>Yearly Fees :</strong> 12000/year</p>
+                <p class="pr-totfee"><strong>Total Fees :</strong> Rs. 24000</p>
+            </div>
+        </div>
+        <div id="course-5" class="container cou-sty">
+            <button onclick="toggleAnimation('drop5')" class="btn btn-primary cou-len container">
+                <h4 class="h4">M.A (Political Science)</h4>
+                <a class="sh-icon">+</a>
+            </button>
+            <div id="drop5" class="cou-dropdown container">
+                <p class="pr-du"><strong>Program Duration :</strong> 2 Years</p>
+                <p class="pr-seats"><strong>Total Seats :</strong> 20</p>
+                <p class="pr-fees"><strong>Yearly Fees :</strong> 12000/year</p>
+                <p class="pr-totfee"><strong>Total Fees :</strong> Rs. 24000</p>
+            </div>
+        </div>
+        <div id="course-6" class="container cou-sty">
+            <button onclick="toggleAnimation('drop6')" class="btn btn-primary cou-len container">
+                <h4 class="h4">M.A (Hindi)</h4>
+                <a class="sh-icon">+</a>
+            </button>
+            <div id="drop6" class="cou-dropdown container">
+                <p class="pr-du"><strong>Program Duration :</strong> 2 Years</p>
+                <p class="pr-seats"><strong>Total Seats :</strong> 20</p>
+                <p class="pr-fees"><strong>Yearly Fees :</strong> 12000/year</p>
+                <p class="pr-totfee"><strong>Total Fees :</strong> Rs. 24000</p>
+            </div>
+        </div>
+        <div id="course-7" class="container cou-sty">
+            <button onclick="toggleAnimation('drop7')" class="btn btn-primary cou-len container">
+                <h4 class="h4">M.A (Sanskrit)</h4>
+                <a class="sh-icon">+</a>
+            </button>
+            <div id="drop7" class="cou-dropdown container">
+                <p class="pr-du"><strong>Program Duration :</strong> 2 Years</p>
+                <p class="pr-seats"><strong>Total Seats :</strong> 20</p>
+                <p class="pr-fees"><strong>Yearly Fees :</strong> 12000/year</p>
+                <p class="pr-totfee"><strong>Total Fees :</strong> Rs. 24000</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-white">
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Downloads</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="/downloads/5bada36a95238.pdf" class="text-muted fot-link"
+                    download="teachingstaff.pdf"><i id="foot-icon" class="bi bi-arrow-right-short"></i>Teaching Staff</a>
+                </li>
+                <li class="mb-2"><a href="/downloads/nonteaching.pdf" class="text-muted fot-link"
+                    download="nonteaching.pdf"><i id="foot-icon" class="bi bi-arrow-right-short"></i>Non Teaching Staff</a>
+                </li>
+                <li class="mb-2"><a href="/downloads/AffilEx.pdf" class="text-muted fot-link" download="AffilEx.pdf"><i
+                      id="foot-icon" class="bi bi-arrow-right-short"></i>AffilEx 2018-19</a></li>
+                <li class="mb-2"><a href="/downloads/Affiliation.pdf" class="text-muted fot-link"
+                    download="Affiliation.pdf"><i id="foot-icon" class="bi bi-arrow-right-short"></i>Affiliation Order</a>
+                </li>
+                <li class="mb-2"><a href="/downloads/govnotice.pdf" class="text-muted fot-link" download="govnotice.pdf"><i
+                      id="foot-icon" class="bi bi-arrow-right-short"></i>State Govt Noc</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Imporatant Links</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="https://www.mlsu.ac.in/" class="text-muted fot-link" target="_blank"><i
+                      id="foot-icon" class="bi bi-arrow-right-short"></i>Mohanlal Sukhadia University</a></li>
+                <li class="mb-2"><a href="https://uniraj.ac.in/" class="text-muted fot-link" target="_blank"><i
+                      id="foot-icon" class="bi bi-arrow-right-short"></i>Rajasthan University</a></li>
+                <li class="mb-2"><a href="https://hte.rajasthan.gov.in/" class="text-muted fot-link" target="_blank"><i
+                      id="foot-icon" class="bi bi-arrow-right-short"></i>The Department of College Education</a></li>
+                <li class="mb-2"><a href="https://scholarship.rajasthan.gov.in/" class="text-muted fot-link"
+                    target="_blank"><i id="foot-icon" class="bi bi-arrow-right-short"></i>Scholarship</a></li>
+                <li class="mb-2"><a href="https://sje.rajasthan.gov.in/" class="text-muted fot-link" target="_blank"><i
+                      id="foot-icon" class="bi bi-arrow-right-short"></i>Department of Social Justice & Empowerment</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Category</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="/html/director.html" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Founder Desk</a></li>
+                <li class="mb-2"><a href="/html/principal.html" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Principal Desk</a></li>
+                <li class="mb-2"><a href="/html/facilities.html" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Facilities</a></li>
+                <li class="mb-2"><a href="/html/gallery.html" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Gallery</a></li>
+                <li class="mb-2"><a href="/html/contact.html" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Student Corner</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="https://www.mlsu.ac.in/Syllabus" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Syllabus</a></li>
+                <li class="mb-2"><a href="https://examination.mlsuportal.in" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Examination</a></li>
+                <li class="mb-2"><a href="https://results.mlsuportal.in/" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Results</a></li>
+                <li class="mb-2"><a href="html/course.html" class="text-muted fot-link"><i id="foot-icon"
+                      class="bi bi-arrow-right-short"></i>Course Info</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights">
+          <div id="rights-in" class="container-fluid">
+            <p id="rights-p1"><a href="/index.html" class="nav-link">© All rights reserved.</a></p>
+            <p id="rights-p"><a href="https://nasu.live/" class="nav-link">Desinged By Jain Naman.</a></p>
+          </div>
+    </footer>
+    
+    <section> <!-- JavaScript linking -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/javascript/stopclick.js"></script>
+        <script src="/preload/preload.js"></script>
+        <script src="/javascript/animationtoggle.js"></script>
+    </section> 
+</body>
+</html>
