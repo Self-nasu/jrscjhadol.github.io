@@ -1,3 +1,17 @@
+.heading {
+    margin-bottom: 5vh;
+    text-align: center;
+}
+.heading>h2 {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    color: #007bff;
+    font-family: 'Inter';
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.121), 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+
 /* IMAGE GRID STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .image-grid figure {
