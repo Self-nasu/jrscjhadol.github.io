@@ -1,0 +1,17 @@
+
+.cp-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.tb-icon:hover {
+    color: #007bff;
+}
+.webdev-table {
+    border-radius: 7px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.183);
+}
+
+.updated-on {
+    margin-top: 15vh;
+}
