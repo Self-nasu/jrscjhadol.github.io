@@ -48,3 +48,13 @@
     font-size: 2.5rem;
     padding-bottom: 3rem;
 }
+
+@media only screen and (max-width:992px) {
+    #reviews {
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+    }
+    #rv-btn {
+        padding-bottom: 0rem;
+    }
+}

@@ -14,3 +14,9 @@
     width: 100%;
     margin-top: 1rem;
 }
+
+@media only screen and (max-width:576px) {
+    #mobile {
+        margin-top: 0.6rem;
+    }
+}
