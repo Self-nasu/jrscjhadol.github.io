@@ -10,8 +10,8 @@ function toggleAnimation(elementId) {
       myDiv.style.height = "169px";
       myDiv.style.display = "flex";
     }, 299);
-    
     animationState = "enter-animation";
+    console.log(animationState);
   } else {
     myDiv.classList.remove("enter-animation");
     myDiv.classList.add("exit-animation");
@@ -20,5 +20,6 @@ function toggleAnimation(elementId) {
       myDiv.style.display = "none";
     }, 299);
     animationState = "exit-animation";
+    console.log(animationState);
   }
 }
