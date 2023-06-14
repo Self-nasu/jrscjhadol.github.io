@@ -8,6 +8,7 @@ function toggleAnimation(elementId) {
     myDiv.classList.add("enter-animation");
     setTimeout(() => {
       myDiv.style.height = "169px";
+      myDiv.style.display = "flex";
     }, 299);
     
     animationState = "enter-animation";
